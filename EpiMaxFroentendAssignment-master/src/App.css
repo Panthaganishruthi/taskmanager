@@ -1,0 +1,46 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif; /* Change the font */
+ }
+ 
+ .form-section {
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the form section */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+ }
+ 
+ .main-heading {
+  color: #333333; /* Dark grey text color */
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ 
+ .task-item {
+  background-color: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+ }
+ 
+ .task-item.completed {
+  background-color: #d4edda; /* Light green for completed tasks */
+ }
+ 
+ .task-item.in-progress {
+  background-color: #fff3cd; /* Light yellow for tasks in progress */
+ }
+ 
+ .task-item button {
+  margin-left: 10px;
+ }
+ 
